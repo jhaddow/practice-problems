@@ -9,7 +9,7 @@ var SimpleSymbols = function (str) {
 		if(str[i].toLowerCase() !== str[i].toUpperCase()){
 
 			if(str[i-1] !== '+' || str[i+1] !== '+'){
-				return false
+				return false;
 			}
 		}
 	}
